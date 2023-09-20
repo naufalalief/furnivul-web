@@ -351,6 +351,134 @@ footer .foot-socials .socials div svg {
   background-color: #023047;
   border-radius: 0.1rem;
 }
+/*  */
+.register {
+  background-color: #023047;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.register .container {
+  display: block;
+  margin-top: 4rem;
+  /* border: 1px #ffb703 solid; */
+  width: 500px;
+}
+.register .container .desc {
+  margin: 1rem;
+  padding: 1rem;
+  border-bottom: 1px solid #023047;
+}
+.register .container .desc h1 {
+  font-size: 2rem;
+  font-weight: 700;
+  margin: 1rem 0;
+}
+.register .container .desc p {
+  font-size: 1rem;
+  font-weight: 300;
+}
+.register .container .furnivul-logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* border: 1px solid #ffb703; */
+}
+.register .container form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 1rem;
+  background-color: #0c556e;
+  border-radius: 0.5rem;
+  /* border: 1px solid white; */
+}
+
+.register .container form .register-input {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  /* border: 1px solid white; */
+  margin: 1rem;
+}
+.register .container form .register-input .input-group {
+  /* margin: 0; */
+  /* border: 1px solid white; */
+  padding: 1rem;
+}
+.register .container form .register-input .input-group label {
+  /* border: 1px solid white; */
+  display: block;
+  margin-bottom: 1rem;
+  /* padding: 0 1rem; */
+}
+.register .container form .register-input .input-group .input-text {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  width: 341px;
+  border-radius: 0.5rem;
+}
+.register .container form .register-input .input-group .input-text input {
+  width: 100%;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  /* border: 1px solid black; */
+  font-size: 1rem;
+}
+.register .container form .register-input .input-group .input-text svg {
+  color: black;
+  margin: 1rem;
+}
+.register .container form .register-input .input-group.checkbox {
+  display: flex;
+  justify-content: start;
+  align-items: start;
+  border: 1px solid white;
+  border-radius: 0.5rem;
+  margin: 1rem;
+}
+.register
+  .container
+  form
+  .register-input
+  .input-group.checkbox
+  input[type="checkbox"] {
+  width: 20px;
+  height: 20px;
+  width: 100px;
+}
+.register .container form .register-input button {
+  background-color: #ffb703;
+  margin: 1rem;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  color: black;
+}
+/*  */
+#register-notification {
+  visibility: hidden;
+  min-width: 250px;
+  margin-right: 5rem;
+  background-color: #ffb703;
+  color: white;
+  text-align: center;
+  border-radius: 0.5rem;
+  padding: 1.5rem;
+  position: fixed;
+  z-index: 1;
+  right: 0rem;
+  bottom: 1rem;
+  font-weight: 100;
+}
+#register-notification.show {
+  visibility: visible;
+  -webkit-animation: fadein 0.5s, fadeout 0.5s 2.5s;
+  animation: fadein 0.5s, fadeout 0.5s 2.5s;
+}
 @media (max-width: 1200px) {
   body::before {
     content: "Mohon maaf, ukuran tidak tersedia";

@@ -373,7 +373,7 @@ footer .foot-socials .socials div svg {
 .register .container .desc h1 {
   font-size: 2rem;
   font-weight: 700;
-  margin: 1rem 0;
+  margin: 0 0 1rem 0;
 }
 .register .container .desc p {
   font-size: 1rem;
@@ -383,15 +383,16 @@ footer .foot-socials .socials div svg {
   display: flex;
   align-items: center;
   justify-content: center;
+  margin: 0 0 3rem 0;
   /* border: 1px solid #ffb703; */
 }
 .register .container form {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin: 1rem;
   background-color: #0c556e;
   border-radius: 0.5rem;
+  width: 100%;
   /* border: 1px solid white; */
 }
 
